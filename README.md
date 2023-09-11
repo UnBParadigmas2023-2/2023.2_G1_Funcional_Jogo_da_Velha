@@ -1,31 +1,25 @@
 # RepositorioTemplate
 Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
 As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.2_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# 2023.2_G1_Funcional
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 01<br>
+**Paradigma**: Funcional<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 22/2015103  |  Debora Caires de Souza Moreira |
+| 18/0016067  |  Erick Levy Barbosa dos Santos |
+| 20/2016480  |  Hellen fernanda mendonca de faria |
+| 19/0090901  |  Laura Pinos de Oliveria |
+| 21/2005426  |  Lucas Gomes Caldas |
+| 20/0073249  |  Pedro Vitor Augusto de Jesus |
+| 18/0011472  |  Rodolfo Cabral Neves |
+| 18/0027352  |  Rodrigo Carvalho dos Santos |
+| 19/0037997  |  Sidney Fernando Ferreira Lemes |
+
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
