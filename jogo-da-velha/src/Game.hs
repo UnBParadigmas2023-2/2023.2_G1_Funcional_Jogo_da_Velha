@@ -18,6 +18,18 @@ data Game = Game { gameBoard :: Board
 n :: Int
 n = 3
 
+screenWidth :: Int
+screenWidth = 640
+
+screenHeight :: Int
+screenHeight = 480
+
+cellWidth :: Float
+cellWidth = fromIntegral screenWidth / fromIntegral n
+
+cellHeight :: Float
+cellHeight = fromIntegral screenHeight / fromIntegral n
+
 --estado inicial do jogo
 initialGame = Game { gameBoard = array indexRange $ zip (range indexRange) (repeat Nothing)
                    , gamePlayer = PlayerX
