@@ -1,10 +1,10 @@
 name:                jogo-da-velha
 version:             0.1.0.0
-github:              "githubuser/jogo-da-velha"
+github:              "UnBParadigmas2023-2/2023.2_G1_Funcional_"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2023 Author name here"
+author:              ["Pedro Jesus", "Sidney Lemes", "Lucas Caldas", "Rodrigo Santos", "Erick Santos", "Roddas Cabral", "Laura Oliveira", "Hellen Faria", "Debora Moreira"]
+maintainer:          ["ro12062000@gmail.com"]
+copyright:           "2023-2 UnBParadigmas"
 
 extra-source-files:
 - README.md
@@ -17,10 +17,13 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/jogo-da-velha#readme>
+description:         Please see the README on GitHub at <https://github.com/UnBParadigmas2023-2/2023.2_G1_Funcional_#readme>
 
 dependencies:
+- array
 - base >= 4.7 && < 5
+- gloss
+- gloss-rendering
 
 ghc-options:
 - -Wall

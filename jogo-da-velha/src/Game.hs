@@ -31,7 +31,7 @@ cellHeight :: Float
 cellHeight = fromIntegral screenHeight / fromIntegral n
 
 --estado inicial do jogo
-initialGame = Game { gameBoard = array indexRange $ zip (range indexRange) (repeat Nothing)
+initialGame = Game { gameBoard = array indexRange $ zip (range indexRange) ([])
                    , gamePlayer = PlayerX
                    , gameState = Running
                    }
