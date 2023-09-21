@@ -9,7 +9,7 @@
 | -- | -- |
 | 22/2015103  |  Debora Caires de Souza Moreira |
 | 18/0016067  |  Erick Levy Barbosa dos Santos |
-| 20/2016480  |  Hellen fernanda mendonca de faria |
+| 20/2016480  |  Hellen Fernanda Mendonça de Faria |
 | 19/0090901  |  Laura Pinos de Oliveria |
 | 21/2005426  |  Lucas Gomes Caldas |
 | 20/0073249  |  Pedro Vitor Augusto de Jesus |
@@ -27,11 +27,21 @@ Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no 
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+**Linguagens**: Haskell<br>
+**Tecnologias**: stack, gloss<br>
+
+### Comandos para distros baseados em Ubuntu
+
+```bash
+    sudo apt install haskell-platform haskell-stack
+    cd jogo-da-velha
+    
+    # compila o projeto
+    stack build
+
+    # executa o projeto
+    stack exec jogo-da-velha-exe
+```
 
 ## Uso 
 Explique como usar seu projeto.
@@ -52,7 +62,15 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Debora Caires de Souza Moreira    |  | Regular |
+| Erick Levy Barbosa dos Santos     |  | Regular |
+| Hellen Fernanda Mendonça de Faria |  | Regular |
+| Laura Pinos de Oliveria           |  | Regular |
+| Lucas Gomes Caldas                |  | Regular |
+| Pedro Vitor Augusto de Jesus      |  | Regular |
+| Rodolfo Cabral Neves              |  | Regular |
+| Rodrigo Carvalho dos Santos       |  | Regular |
+| Sidney Fernando Ferreira Lemes    |  | Regular |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
@@ -62,5 +80,4 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 (iV) Trabalhos Futuros.
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+[Haskel Stack](https://docs.haskellstack.org/)
