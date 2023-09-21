@@ -42,7 +42,7 @@ library:
 executables:
   jogo-da-velha-exe:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         src
     ghc-options:
     - -threaded
     - -rtsopts

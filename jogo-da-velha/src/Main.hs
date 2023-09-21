@@ -3,8 +3,7 @@ module Main where
 import Graphics.Gloss
 
 import Game
-import Logic
-import Rendering
+import Rendering as Show
 
 -- janela do jogo
 gameWindow = InWindow "Tic-tac-toe Functional - Grupo 01" (700, 525) (100, 100)
@@ -19,4 +18,4 @@ gameAsPicture _ = Blank
 transformGame _ game = game
 
 main :: IO()
-main = play gameWindow backgroundColor 30 initialGame gameAsPicture transformGame (const id)
+main = play gameWindow backgroundColor 30 initialGame Show.gameAsPicture transformGame (const id)
