@@ -1,4 +1,4 @@
-module Game where
+module Game (module Game) where
 
 import Data.Array
 
@@ -31,8 +31,9 @@ cellHeight :: Float
 cellHeight = fromIntegral screenHeight / fromIntegral n
 
 --estado inicial do jogo
+initialGame :: Game
 initialGame = Game { gameBoard = array indexRange $ zip (range indexRange) ([])
                    , gamePlayer = PlayerX
-                   , gameState = Running
+                   , gameState = Running 
                    }
     where indexRange = ((0, 0), (n - 1, n - 1))
