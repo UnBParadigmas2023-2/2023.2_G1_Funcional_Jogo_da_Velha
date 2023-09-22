@@ -13,7 +13,6 @@ data Game = Game { gameBoard :: Board
                  , gameState :: State
                  } deriving (Eq, Show)
 
-
 -- define o tamanho do tabuleiro 3x3
 n :: Int
 n = 3
