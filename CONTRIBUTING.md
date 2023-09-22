@@ -12,7 +12,7 @@
 
 ### Would like to implement some enhancement or correction ? Follow the steps please
 
-- Create a pull request following the [pattern](https://github.com/UnBArqDsw2023-2/2023.2_G5_ProjetoAmericanas/blob/main/.github/pull_request_template.md)
+- Create a pull request following the [pattern](https://github.com/UnBParadigmas2023-2/2023.2_G1_Funcional_/blob/main/.github/pull_request_template.md)
 
 contact [_@Peedrooo_](https://github.com/Peedrooo) for any quest = )
 
