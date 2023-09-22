@@ -33,7 +33,7 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 ### Comandos para distros baseados em Ubuntu
 
 ```bash
-    sudo apt install haskell-platform haskell-stack
+    sudo apt install haskell-platform stack ghc-OpenGLRaw-devel ghc-GLURaw-devel -y
     cd jogo-da-velha
     
     # compila o projeto
