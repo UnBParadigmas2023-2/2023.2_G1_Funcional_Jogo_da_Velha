@@ -19,7 +19,7 @@ switchPlayer game =
 
 -- Verifica se uma lista de células está completamente ocupada pelo mesmo jogador
 full :: [Cell] -> Maybe Player
-full (cell@(Full player):cells) | all (== cell) cells = Just player
+full (cell@(Just player):cells) | all (== cell) cells = Just player
 full _                                                = Nothing
 
 -- Determina o vencedor do jogo
@@ -34,15 +34,15 @@ winner board = asum $ map full $ rows ++ cols ++ diags
 countCells :: Cell -> Board -> Int
 countCells cell = length . filter ((==) cell) . elems
 
-countEmptyCells :: Board -> Int
-countEmptyCells = countCells Empty
+-- countEmptyCells :: Board -> Int
+-- countEmptyCells = countCells Empty
 
 -- Verifica se o jogo acabou
 checkGameOver :: Game -> Game
 checkGameOver game
     | Just p <- winner tabuleiro =
         game { gameState = GameOver $ Just p }
-    | countEmptyCells tabuleiro == 0 =
+    | countCells Nothing tabuleiro == 0 =
         game { gameState = GameOver Nothing }
     | otherwise = game
     where tabuleiro = gameBoard game
@@ -50,10 +50,10 @@ checkGameOver game
 -- Função que representa a vez de um jogador
 playerTurn :: Game -> (Int, Int) -> Game
 playerTurn game cellCoord
-    | isCoordCorrect cellCoord && board ! cellCoord == Empty =
+    | isCoordCorrect cellCoord && board ! cellCoord == Nothing =
         checkGameOver
         $ switchPlayer
-        $ game { gameBoard = board // [(cellCoord, Full player)] }
+        $ game { gameBoard = board // [(cellCoord, Just player)] }
     | otherwise = game
     where board = gameBoard game
           player = gamePlayer game

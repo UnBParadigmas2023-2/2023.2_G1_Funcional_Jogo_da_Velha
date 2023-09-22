@@ -2,6 +2,6 @@
 stack.yaml.lock
 *.cabal
 *~
-*.o
-*.hi
 dist
+*.hi
+*.o
