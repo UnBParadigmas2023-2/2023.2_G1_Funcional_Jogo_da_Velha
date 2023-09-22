@@ -13,7 +13,6 @@ data Game = Game { gameBoard :: Board
                  , gameState :: State
                  } deriving (Eq, Show)
 
-
 -- define o tamanho do tabuleiro 3x3
 n :: Int
 n = 3
@@ -31,6 +30,7 @@ cellHeight :: Float
 cellHeight = fromIntegral screenHeight / fromIntegral n
 
 --estado inicial do jogo
+initialGame :: Game
 initialGame = Game { gameBoard = array indexRange $ zip (range indexRange) ([])
                    , gamePlayer = PlayerX
                    , gameState = Running
