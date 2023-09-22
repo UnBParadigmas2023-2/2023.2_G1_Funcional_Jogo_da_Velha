@@ -19,21 +19,30 @@
 
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+O projeto é uma implementação do jogo da velha em Haskell utilizando programação funcional. Ele é dividido em quatro módulos:
+
+1. Game.hs: Define a estrutura do jogo, incluindo o estado do tabuleiro e a lógica para jogadas. Permite aos jogadores realizar movimentos válidos e verifica o resultado do jogo.
+2. Logic: Contém a lógica central do jogo, determinando vitória, empate e outras regras fundamentais.
+3. Rendering: Trata da representação visual ou textual do jogo, exibindo o tabuleiro e informando o estado atual após cada jogada.
+4. Main: Ponto de entrada do programa, coordena a execução geral do jogo, inicializando-o, alternando jogadores e controlando o fluxo até um vencedor ou empate.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![screenshot_3](screenshots/screenshot3.png)
+![screenshot_1](screenshots/screenshot_1.png)
+![screenshot_2](screenshots/screenshot_2.png)
 
 ## Instalação 
 **Linguagens**: Haskell<br>
 **Tecnologias**: stack, gloss<br>
 
+## Uso 
+
 ### Comandos para distros baseados em Ubuntu
 
 ```bash
     sudo apt install haskell-platform stack ghc-OpenGLRaw-devel ghc-GLURaw-devel -y
+    
+    # Entre na pasta do jogo
     cd jogo-da-velha
     
     # compila o projeto
@@ -43,20 +52,15 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
     stack exec jogo-da-velha-exe
 ```
 
-## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
-
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
+<!-- Adicione 1 ou mais vídeos com a execução do projeto.
 Procure: 
 (i) Introduzir o projeto;
 (ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
 (iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
 (iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
 OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+TEMPO: +/- 15min -->
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
@@ -72,12 +76,6 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Rodrigo Carvalho dos Santos       |  | Regular |
 | Sidney Fernando Ferreira Lemes    |  | Regular |
 
-## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
-
 ## Fontes
 [Haskel Stack](https://docs.haskellstack.org/)
+[[Part 2] Tic-tac-toe Game in Haskell -- Procedural vs Functional](https://www.youtube.com/watch?v=VxLvaHpAK-U&t=263s)
