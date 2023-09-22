@@ -75,6 +75,8 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Rodolfo Cabral Neves              |  | Regular |
 | Rodrigo Carvalho dos Santos       |  | Regular |
 | Sidney Fernando Ferreira Lemes    |  | Regular |
+## Board
+https://github.com/orgs/UnBParadigmas2023-2/projects/2/views/1
 
 ## Fontes
 [Haskel Stack](https://docs.haskellstack.org/)
