@@ -67,13 +67,13 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
 | Debora Caires de Souza Moreira    |  | Regular |
-| Erick Levy Barbosa dos Santos     |  | Regular |
+| Erick Levy Barbosa dos Santos     | Estudei implementação gráfica em Haskell e apliquei os diferentes tipos de typecast. Enfrentei grandes dificuldades com entradas e saídas (IO) para conversão de imagem. Utilizei o Gloss para aprender, principalmente usando pixel art. Posteriormente, decidi testar a biblioteca FunGen, e em sua maioria, achei a linguagem bastante complicada devido à sua tipagem, pois requer um sólido conhecimento sobre os tipos de dados inteiros. | Boa |
 | Hellen Fernanda Mendonça de Faria |  | Regular |
 | Laura Pinos de Oliveria           |  | Regular |
 | Lucas Gomes Caldas                |  | Regular |
 | Pedro Vitor Augusto de Jesus      |  | Regular |
 | Rodolfo Cabral Neves              |  | Regular |
-| Rodrigo Carvalho dos Santos       |  | Regular |
+| Rodrigo Carvalho dos Santos       | Apresentei opções de desenvolvimento com connect4, implementei o render do jogo da velha, e ajustei as versões e controle de dependências do stack. Tentei ajudar o colega Erick Levy com a importação de assets  ao jogo para diferenciar o projeto, infelizmente sem sucesso. Aprendi muito utilizando linguagem funcional, que até o momento era uma novidade pra mim, e passei muita raiva também com a forte tipagem da linguagem.<br>No geral eu considero minha participação como boa, e pretendo não apenas melhorar para próxima, como começar mais cedo. | Boa |
 | Sidney Fernando Ferreira Lemes    |  | Regular |
 ## Board
 https://github.com/orgs/UnBParadigmas2023-2/projects/2/views/1
