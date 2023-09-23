@@ -74,6 +74,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Pedro Vitor Augusto de Jesus      |  | Regular |
 | Rodolfo Cabral Neves              |  | Regular |
 | Rodrigo Carvalho dos Santos       | Apresentei opções de desenvolvimento com connect4, implementei o render do jogo da velha, e ajustei as versões e controle de dependências do stack. Tentei ajudar o colega Erick Levy com a importação de assets  ao jogo para diferenciar o projeto, infelizmente sem sucesso. Aprendi muito utilizando linguagem funcional, que até o momento era uma novidade pra mim, e passei muita raiva também com a forte tipagem da linguagem.<br>No geral eu considero minha participação como boa, e pretendo não apenas melhorar para próxima, como começar mais cedo. | Boa |
+| Sidney Fernando Ferreira Lemes    | Eu participei ativamente no processo de brainstorming de ideias e nas reuniões de grupo para discutir o projeto. Fui responsável por implementar a minha parte designada e explorei oportunidades para adicionar novas funcionalidades, embora tenham sido viabilizadas com sucesso. | Regular |
 | Sidney Fernando Ferreira Lemes    |  | Regular |
 ## Board
 https://github.com/orgs/UnBParadigmas2023-2/projects/2/views/1
