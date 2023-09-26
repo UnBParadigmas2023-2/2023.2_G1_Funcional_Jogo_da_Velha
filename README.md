@@ -53,14 +53,8 @@ O projeto é uma implementação do jogo da velha em Haskell utilizando programa
 ```
 
 ## Vídeo
-<!-- Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min -->
+
+[Video Apresentação](https://www.youtube.com/watch?v=8b2dWwA84vQ)
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
