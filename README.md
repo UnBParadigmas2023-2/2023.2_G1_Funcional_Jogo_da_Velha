@@ -55,6 +55,8 @@ O projeto é uma implementação do jogo da velha em Haskell utilizando programa
 ## Vídeo
 
 [Video Apresentação](https://www.youtube.com/watch?v=8b2dWwA84vQ)
+[Video Apresentação - Stream](https://unbbr-my.sharepoint.com/personal/200073249_aluno_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2F200073249%5Faluno%5Funb%5Fbr%2FDocuments%2FVideoApresentacao%2DGrupo1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1)
+
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
